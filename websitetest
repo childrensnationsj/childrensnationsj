@@ -1,0 +1,313 @@
+
+
+
+<!DOCTYPE html>
+<html> 
+<style>
+  
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    }
+    ::-webkit-scrollbar-track {
+        background: inherit;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #000;
+    }
+    .roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto BI", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+/* TEXT */
+    .title {
+        font-family: 'Abril Fatface', sans-serif;
+        font-size: 75px;
+        margin-right: 10%;
+    margin-left: 10%;
+
+    }
+    .SubTitle {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 15px;
+      text-decoration: underline;
+    }
+    .SubText {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+    .Slogan {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+    .FooterText {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 15px;
+    }
+    .BooksText {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 22.5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+    .FAQ {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+  font-weight: 900;
+  font-style: italic
+  }
+    .BookTitleText {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+  font-weight: 900;
+  font-style: italic
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  display: inline-block;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 25px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+.img {
+  float: left;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+</style>
+
+
+<center>
+  <div class="title">Children's Nation of South Jersey</div>
+<br>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'MS')">Mission Statement</button>
+  <button class="tablinks" onclick="openCity(event, 'CB')">Core Beliefs</button>
+  <button class="tablinks" onclick="openCity(event, 'M')">Missions</button>
+  <button class="tablinks" onclick="openCity(event, 'FAQ')">FAQ</button>
+  </div>
+   <br>
+  <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'CB2')">Censured Books</button>
+  <button class="tablinks" onclick="openCity(event, 'SQ')">Select Quotes</button>
+  <button class="tablinks" onclick="openCity(event, 'R')">Releases</button>
+</div>
+<div id="MS" class="tabcontent">
+<div class="SubText">The Children's Nation for South Jersey (CNSJ) is an organization determined to protect and ensure the ongoing safety of children and college students of federally, state and locally funded educational institutions and libraries based in the South Jersey area, with a focus on the counties of Gloucester and Cumberland.</div>
+  <hr>
+</div>
+<div id="CB" class="tabcontent">
+  <hr>
+<div class="SubText">1. Federally, state and locally funded educational institutions in the South Jersey area, such as public K-12 schools, community colleges, universities and libraries should not be allowed to disperse or approve literature, student programs, lessons, media or other endeavors that may endanger the mental, psychological or moral well-being of students. All material must be age appropriate for the educational institution.</div.>
+ <br>
+2. Students and citizens should have access to libraries and media catalogs that are free of literature and other media including, but not limited to, supporting pedophilic, gender confusion and critical race ideology.
+ <br>
+3. The process of auditing and reforming educational institutions should be easily accessible to everyday citizens, students and parents of children without obfuscation.
+</div>
+</div>
+
+<div id="M" class="tabcontent">
+  <hr>
+<div class="SubText">1. Publicly censure, dismantle and remove literature and other forms of media distributed and approved by federally, state and locally funded educational institutions and libraries including, but not limited to, material approving of pedophilic, anti-religious and critical race themes and  underlying expressions.
+<br>
+2. Ensure books, lessons and other forms of media and literature needed for required courses for graduation of students of federally, state and locally funded educational institutions do not include the properties as mentioned in Missions [1].
+<br>
+3. Grant students of federally, state and locally funded educational institutions with a reasonable ability to reject material they find holding the properties as mentioned in Missions [1] and accommodations of an immediate reasonable alternative of material. 
+<br>
+4. Enfranchise students and parents of children enrolled in federally, state and locally funded educational institutions and libraries alike to decide if literature and other forms of media are allowed into library or media catalogs. 
+<br>
+5. Ensure complete, unobstructed and transparent virtual book and media catalogs of all federally, state or locally funded educational institutions and libraries.
+</div>
+</div>
+
+<div id="FAQ" class="tabcontent">
+  <hr>
+<div class="FAQ">Is CNSM affiliated a youth group?</div>
+<div class="SubText">No. CNSJ is a children's advocacy group; we currently do not provide support or activities for children. We do want to hear from the children though! We encourage young South Jersey students in middle school or high school who might want to share concerns about their educational institution to email us (bottom of website).</div>
+<br>
+<div class="FAQ">Is CNSJ affiliated with any political party?</div>
+<div class="SubText">CNSJ is completely independent of any political affiliation with a party, board, union, organization or other entity.</div>
+<br>
+<div class="FAQ">Is banning books against freedom of speech?</div>
+<br>
+<div class="SubText">Banning books and other resources that are harmful to children is not against freedom of speech. From a legal standpoint, disallowing certain books in public libraries is not a violation of freedom of speech. Obviously, if a book told a student how to make a bomb, it does not belong in a library. We firmly and and completely believe that are erotic, salacious, sexually suggestive or critical race in nature do not belong in young children's libraries.</div> 
+<br>
+<div class="FAQ">Why should books be banned from college student adults?</div>
+<br>
+<div class="SubText">CNSJ, as a part of its third clause in its Core Beliefs, believes adult-aged college students should know and have a say on what books are entering their libraries. Libraries on public colleges and universities are also funded fully or partially by state and local taxes, therefore taxpayers should also be aware of the books being entered into these libraries.</div>
+<br>
+<div class="FAQ">How does CNSJ intend to fulfill its missions?</div>
+<br>
+<div class="SubText">CNSJ will petition local and state government through peaceful protests, speeches and board meetings. It will engage online activism through its various social media channels by posting excerpts of literature, lessons plans and other approved resources as officially censured by CNSJ. We intend to communicate officially censured books through our social media channels.</div>
+<br>
+<div class="FAQ">How do I get involved with CNSJ?</div>
+<br>
+<div class="SubText">Thank you for expressing interest in the movement! Please reach out to us through our channels at the bottom of the website and we will reach out to you at our earliest chance.</div>
+</div>
+</div>
+<div id="CB2" class="tabcontent">
+  <hr>
+<div class="BooksText">
+<b>Child-friendly perspectives on gender and sexual diversity : beyond adultcentrism</b>,
+<br> Jose Langarita, Rowan College Of South Jersey Cumberland Library, 34339000174887
+<br><b>Transphobia : deal with it and be a gender transcender</b>, 
+<br>J. Wallace Skelton, Williamstown Middle School, 306.76 SKE
+<br><b>Queering Elementary Education</b>, 
+<br>William J. Letts IV, Gloucester Public Library Glassboro Branch, eBook
+<br><b>Mighty Red Riding Hood : a fairly queer tale</b>, 
+<br>Wallace West, Rowan University Campbell Library, Easy Fic .W522m
+<br><b>White fragility : why it's so hard for White people to talk about racism</b>, 
+<br>Robin DiAngelo, Rowan College Of South Jersey Glouster Library, HT1521 .D486 2018	
+<br><b>It feels good to be yourself : a book about gender identity</b>, 
+<br>Theresa Thorn, Whitehall Elementary School, 305.8 LES
+<br><b>Ugly White People : Writing Whiteness in Contemporary America</b>, 
+<br>Li, Stephanie, Rowan University, eBook
+<br><b>Introducing Teddy : a gentle story about gender and friendship</b>, 
+<br>Jessica Walton, Whitehall Elementary School, E WAL
+<br><b>How to be a (young) antiracist</b>,
+<br> Ibram X. Kendi, Monroe Township Public Library, 3420110222733U 
+
+</div>
+</div>
+
+<div id="SQ" class="tabcontent">
+  <hr>
+<div class="BookTitleText">Child-friendly perspectives on gender and sexual diversity : beyond adultcentrism</div>
+<div class="SubText">"The solution to these concerns is that families and professionals require training..." (Page 15)
+<br>"Trans-exclusionary organizations may entrap children in vulnerable situations" (Page 16) 
+<br>"[W]e must use the politics of location... to question the interpretation of [gender] within much more complex networks of power."" (Page 51) 
+<br>"Anti [trans]gender activists… [they have] ideological connections with… attempts to deprive children of full personhood." (Page 53) 
+<br>"Sex Matters fails to acknowledge that trans children may... live authentically in the way to... physically convert their bodies." (Page 53) 
+<br>"It is also necessary that school boards get involved and take a clear position of support and protection for LGBTI+ children." (Page 75)
+</div>
+</div>
+</div>
+
+
+  <br>
+  <div class="FooterText">Welcome to the official website of Children's Nation for South Jersey (CNSJ)!
+    <br>Please click on a tab to learn more.
+<br>
+  Contact us: Email: <a href="mailto:childrensnationsj@gmail.com">childrensnationsj@gmail.com</a> / Facebook: <a href="https://www.facebook.com/childrensnationsj" target="_blank">childrensnationsj</a>
+</div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
